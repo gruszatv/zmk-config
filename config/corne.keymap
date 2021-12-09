@@ -19,10 +19,10 @@
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  N  |  I   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q       &kp W &kp F         &kp P       &kp B   &kp N &kp E        &kp U     &mt RMETA Y   &kp SEMI   &kp DEL 
-   &kp BSPC  &kp A       &lt 2 R &mt LMETA S   &mt LSHFT T &kp G   &kp M &mt RSHFT H  &kp J     &kp K         &lt 1 L           &kp SQT
-   &kp LMETA &mt LCTRL Z &kp X &kp C         &mt LALT D  &kp V   &kp O &mt RALT I   &kp COMMA &kp DOT       &mt RCTRL FSLH  &kp CAPS
-                   &kp CAPS &mo 1  &kp SPACE                  &kp RET &kp ESC &mo 1
+   &kp TAB   &kp Q       &kp W   &kp F         &kp P       &kp B   &kp N &kp E        &kp U     &mt RMETA Y   &kp SEMI   &kp DEL 
+   &kp BSPC  &kp A       &lt 2 R &lt 1 S       &mt LSHFT T &kp G   &kp M &mt RSHFT H  &kp J     &kp K         &lt 1 L           &kp SQT
+   &kp LMETA &mt LCTRL Z &kp X   &kp C         &mt LALT D  &kp V   &kp O &mt RALT I   &kp COMMA &kp DOT       &mt RCTRL FSLH  &kp CAPS
+                  &mt LMETA CAPS &kp SPACE  &kp SPACE                  &kp RET &kp ESC &mo 1
                         >;
                 };
                 lower_layer {
@@ -33,7 +33,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB   &kp N4 &kp BSLH   &kp LBRC &kp RBRC &kp N5     &kp N6    &kp N7 &kp N8 &kp N9 &kp COMMA &kp BSPC
-   &kp LSHFT &trans &kp EQUAL  &kp LPAR &kp RPAR &kp TILDE  &kp MINUS &kp N4 &kp N5 &kp N6 &kp TAB &trans
+   &kp LSHFT &trans &kp EQUAL  &kp LPAR &mt LSHFT RPAR &kp TILDE  &kp MINUS &kp N4 &kp N5 &kp N6 &kp TAB &trans
    &kp LSHFT &trans &kp GRAVE  &kp LBKT &kp RBKT &trans     &kp PLUS  &kp N1 &kp N2 &kp N3 &kp DOT &trans
                 &kp LGUI &trans &kp SPACE     &kp RET  &kp N0   &kp BSPC
                         >;
